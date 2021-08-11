@@ -40,11 +40,14 @@ dependencies {
     implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.2.4'
 }
 
-test {
-    useJUnitPlatform()
-}
+processResources.dependsOn('copySecurity')
 
 task copySecurity(type: Copy) {
     from './submodule/security/application-security.yml'
     into './src/main/resources'
 }
+
+test {
+    useJUnitPlatform()
+}
+

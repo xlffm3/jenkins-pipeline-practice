@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="wooteco.subway.domain.SubwayMapTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-11T13:36:04" hostname="bagjinhong-ui-MacBookPro.local" time="0.002">
-  <properties/>
-  <testcase name="findShortestPath()" classname="wooteco.subway.domain.SubwayMapTest" time="0.0"/>
-  <testcase name="cannotFindShortestPath()" classname="wooteco.subway.domain.SubwayMapTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

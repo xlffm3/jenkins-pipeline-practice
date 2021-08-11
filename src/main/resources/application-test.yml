@@ -7,8 +7,6 @@ spring:
   h2:
     console:
       enabled: true
-  profiles:
-    include: security
 handlebars:
   suffix: .html
   enabled: true
