@@ -1,0 +1,6 @@
+[submodule "security"]
+	path = security
+	url = https://github.com/xlffm3/submodule
+[submodule "submodule"]
+	path = submodule
+	url = https://github.com/xlffm3/submodule
